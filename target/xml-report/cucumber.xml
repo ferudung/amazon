@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="7.395">
+    <testcase classname="Amazon Search" name="iPhone13 512 Search" time="7.302">
+        <system-out>
+            <![CDATA[When Go to url..............................................................passed
+And Search "object".........................................................passed
+And Check that the results are listed.......................................passed
+And Click Iphone13 at the top of the list...................................passed
+Then Log the following values for each size.(Size information  .Price  .Color .Stock status).passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

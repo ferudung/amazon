@@ -1,0 +1,132 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-15T15:41:18.213Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1994700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "iPhone13 512 Search",
+        "description": "",
+        "id": "amazon-search;iphone13-512-search",
+        "after": [
+          {
+            "result": {
+              "duration": 824231100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2907654800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Go to url",
+            "match": {
+              "location": "stepDefinitions.AmazonSteps.goToUrl()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1254985400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Search \"object\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"object\"",
+                  "offset": 7
+                }
+              ],
+              "location": "stepDefinitions.AmazonSteps.search(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39842600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Check that the results are listed",
+            "match": {
+              "location": "stepDefinitions.AmazonSteps.checkThatTheResultsAreListed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2110032800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click Iphone13 at the top of the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "13",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.AmazonSteps.clickIphoneAtTheTopOfTheList(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117958300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Log the following values for each size.(Size information  .Price  .Color .Stock status)",
+            "match": {
+              "location": "stepDefinitions.AmazonSteps.logTheFollowingValuesForEachSizeSizeInformationPriceColorStockStatus()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@amazon"
+          }
+        ]
+      }
+    ],
+    "name": "Amazon Search",
+    "description": "",
+    "id": "amazon-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/amazon.feature",
+    "tags": [
+      {
+        "name": "@amazon",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
